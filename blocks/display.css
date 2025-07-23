@@ -1,0 +1,43 @@
+.card__display {
+  width: 100%;
+  height: 700px;
+}
+
+.card__container {
+  background-image: url(../src/images/pexels-pixabay-269063.jpg);
+  background-size: cover;
+}
+
+.card__house {
+  width: 425px;
+  height: 570px;
+  margin: 30px;
+  background-color: white;
+  border-radius: 8px;
+  background-image: url(../src/images/pexels-binyaminmellish-106399.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card__condo {
+  width: 425px;
+  height: 570px;
+  margin: 30px;
+  background-color: white;
+  border-radius: 8px;
+  background-image: url(../src/pexels-life-of-pix-2459.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card__title-container {
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card__image-container {
+  display: flex;
+  justify-content: space-around;
+}

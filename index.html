@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A website showcasing photos of hairsyles"
+    />
+    <meta name="author" content="Jeremiah Partee" />
+    <meta name="keyword" content="beauty, salon, hairstyles" />
+    <title>Beauty</title>
+
+    <link rel="stylesheet" href="/blocks/header.css" />
+    <link rel="stylesheet" href="/blocks/nav.css" />
+    <link rel="stylesheet" href="/blocks/page.css" />
+    <link rel="stylesheet" href="./blocks/display.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__title-container">
+          <img
+            src="./src/images/chesterlogo_files/66eeb02f5dfb43eaea30f200_3Portals.svg"
+            alt="logo"
+            class="header__logo"
+          />
+          <h1 class="header__title">this will be the title</h1>
+        </div>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">Find a Home</li>
+            <li class="nav__list-item">Services</li>
+            <li class="nav__list-item">Contact Me</li>
+            <li class="nav__list-item">My Story</li>
+          </ul>
+        </nav>
+      </header>
+      <body>
+        <section class="card__display">
+          <div class="card__container">
+            <div class="card__title-container">
+              <p class="card__title">Search Houses</p>
+              <p class="card__title">Search Condos</p>
+            </div>
+            <div class="card__image-container">
+              <div class="card__house"></div>
+              <div class="card__condo"></div>
+            </div>
+          </div>
+        </section>
+      </body>
+    </div>
+  </body>
 </html>

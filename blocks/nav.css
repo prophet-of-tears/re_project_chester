@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+
+  width: 100%;
+
+  justify-content: center;
+  margin: 12px 0;
+  font-size: 36px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-right: 12px;
+}
+
+.nav__list-item {
+  margin-left: 12px;
+}
+
+.nav__list-item:hover {
+  text-decoration: underline;
+}
