@@ -10,24 +10,38 @@
 
 .card__house {
   width: 425px;
-  height: 570px;
+  height: 550px;
   margin: 30px;
   background-color: white;
   border-radius: 8px;
   background-image: url(../src/images/pexels-binyaminmellish-106399.jpg);
   background-size: cover;
   background-position: center;
+  box-shadow: -4px 4px 4px 4px;
+  transition: 0.5s ease-out;
+}
+
+.card__house:hover {
+  box-shadow: 4px 4px 4px 4px rgb(168, 130, 53);
+  transition: 0.5s;
 }
 
 .card__condo {
   width: 425px;
-  height: 570px;
+  height: 550px;
   margin: 30px;
   background-color: white;
   border-radius: 8px;
   background-image: url(../src/pexels-life-of-pix-2459.jpg);
   background-size: cover;
   background-position: center;
+  box-shadow: 4px 4px 4px 4px;
+  transition: 0.5s ease-in;
+}
+
+.card__condo:hover {
+  box-shadow: -4px 4px 4px 4px rgb(168, 130, 53);
+  transition: 0.5s;
 }
 
 .card__title-container {
@@ -35,6 +49,10 @@
   color: white;
   display: flex;
   justify-content: space-around;
+}
+
+.card__title {
+  margin-bottom: 0;
 }
 
 .card__image-container {

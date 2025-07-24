@@ -3,20 +3,22 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  background-color: rgb(253, 250, 240);
+  background-image: url(../src/images/pexels-pixabay-258149.jpg);
+  background-size: cover;
 }
 
 .header__title-container {
   display: flex;
   flex-direction: row;
   margin: 10px auto;
-  border-bottom: 2px solid black;
+  /* border-bottom: 2px solid black; */
   width: 100%;
   justify-content: center;
 }
 
 .header__title {
   margin: 10px;
+  color: rgb(255, 255, 255);
 }
 
 .header__logo {

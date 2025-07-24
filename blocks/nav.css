@@ -1,11 +1,8 @@
 .nav {
   display: flex;
-
   width: 100%;
-
   justify-content: center;
   margin: 12px 0;
-  font-size: 36px;
 }
 
 .nav__list {
@@ -19,7 +16,9 @@
 }
 
 .nav__list-item {
-  margin-left: 12px;
+  margin-left: 48px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
 }
 
 .nav__list-item:hover {
