@@ -19,8 +19,10 @@
   margin-left: 48px;
   font-size: 24px;
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .nav__list-item:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
