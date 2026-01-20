@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/blocks/nav.css" />
     <link rel="stylesheet" href="/blocks/page.css" />
     <link rel="stylesheet" href="./blocks/display.css" />
+    <link rel="stylesheet" href="./blocks/form.css" />
   </head>
   <body class="main">
     <div class="page">
@@ -37,7 +38,7 @@
           </ul>
         </nav>
         <div class="header__card"></div>
-        <form class="header__card-search-container">
+        <form name="mainSearch" class="header__card-search-container">
           <input
             type="search"
             class="header__card-searchbar"
@@ -58,6 +59,33 @@
               <div class="card__condo"></div>
             </div>
           </div>
+        </section>
+        <section class="form__page">
+          <h2 class="form__page-title">Let me help you find a home</h2>
+          <form name="findHome" class="form__home">
+            <label for="firstName" class="form__home-label"> First Name </label
+            ><input id="firstName" type="text" class="form__home-input" />
+            <label for="lastName" class="form__home-label"> Last Name </label
+            ><input id="lastName" type="text" class="form__home-input" />
+            <label for="address" class="form__home-label">
+              Current Street Address </label
+            ><input id="address" type="text" class="form__home-input" />
+            <label for="city" class="form__home-label"> City </label>
+            <input id="city" type="text" class="form__home-input" />
+            <label for="Zip" class="form__home-label"> Zip </label
+            ><input id="Zip" type="number" class="form__home-input" />
+            <span class="form__home-span"></span>
+            <label for="phoneNumber" class="form__home-label">
+              Phone Number </label
+            ><input id="phoneNumber" type="number" class="form__home-input" />
+            <label for="email" class="form__home-label"> Email </label
+            ><input id="email" type="email" class="form__home-input" />
+            <span class="form__home-span">I am looking for a house In...</span>
+            <label for="toCity" class="form__home-label"> City </label
+            ><input id="toCity" type="text" class="form__home-input" />
+            <label for="toState" class="form__home-label"> State </label
+            ><input id="toCity" type="number" class="form__home-input" />
+          </form>
         </section>
       </body>
     </div>
